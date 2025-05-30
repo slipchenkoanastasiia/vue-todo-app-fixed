@@ -4,18 +4,20 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "vue-tsc -b && vite build",
-  "preview": "vite preview",
-  "serve": "serve dist",
-  "lint": "eslint --ext .ts,.tsx,.vue src",
-  "format": "prettier --write ."
-},
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "serve": "serve dist",
+    "lint": "eslint --ext .ts,.tsx,.vue src",
+    "format": "prettier --write ."
+  },
   "dependencies": {
-    "vue": "^3.5.13"
+    "vue": "^3.5.13",
+    "vuedraggable": "^2.24.3"
   },
   "devDependencies": {
     "@types/node": "^22.15.27",
+    "@types/vuedraggable": "^2.24.0",
     "@vitejs/plugin-vue": "^5.2.3",
     "@vue/tsconfig": "^0.7.0",
     "autoprefixer": "^10.4.21",
